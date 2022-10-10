@@ -46,7 +46,7 @@ class _MyButtonState extends State<MyButton> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 0, 0, 0),
+      backgroundColor: Color.fromARGB(255, 214, 151, 151),
       appBar: AppBar(
         backgroundColor: Color.fromARGB(255, 55, 4, 78),
         title: Row(
@@ -74,7 +74,7 @@ class _MyButtonState extends State<MyButton> {
                   Expanded(
                     child: Image(
                         image: AssetImage(imagenombre),
-                        height: 250,
+                        height: 253,
                         fit: BoxFit.contain),
                   ),
                 ],
